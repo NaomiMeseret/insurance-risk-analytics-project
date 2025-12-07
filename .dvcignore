@@ -23,4 +23,10 @@ venv/
 env/
 ENV/
 .venv
-
+# Ignore reports and model artifacts (can be regenerated)
+reports/*.png
+reports/*.html
+reports/*.pdf
+models/*.pkl
+models/*.joblib
+models/*.h5

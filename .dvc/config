@@ -1,0 +1,8 @@
+['remote "localstorage"']
+    url = ~/dvc_storage
+[core]
+    remote = localstorage
+    checksum_jobs = 2
+    interactive = false
+    autostage = true
+
