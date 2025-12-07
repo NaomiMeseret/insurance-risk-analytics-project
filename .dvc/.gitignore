@@ -1,0 +1,4 @@
+# DVC internal files
+cache
+tmp
+
