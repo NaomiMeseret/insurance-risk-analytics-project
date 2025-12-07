@@ -1,0 +1,17 @@
+# This file is created by DVC when you run: dvc add data/insurance_data.csv
+# It ensures that actual data files are not tracked by Git
+# Only the .dvc metadata files should be committed to Git
+
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.feather
+*.xlsx
+*.xls
+
+# Keep this README
+!README.md
+!.gitkeep
+
